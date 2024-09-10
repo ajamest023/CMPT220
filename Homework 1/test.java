@@ -2,17 +2,21 @@ import java.util.Scanner;
 
 public class test {
     public static void main(String[] args) {
-       Scanner sc = new Scanner(System.in);
-       System.out.println("What is your first name?");
-       String input = sc.nextLine();
-       System.out.println("Hell0 " + input + ". I just need one more thing from you" );
+       String name = "Alexander";
+      
+      if (name == "alexander"){
+        System.out.print("not your name");
+      
+      } else if (name == "Alexander") {
+         System.out.print("yes this is right");
 
-       System.out.println("What is your last name?");
-       String last = sc.nextLine();
-       System.out.println("Hello " + input + " " + last + ", it is nice to meet you");
+      } else { 
+         System.out.print("this should not print");
+      }
+      }
 
         
 
 
-    }}
+    }
 

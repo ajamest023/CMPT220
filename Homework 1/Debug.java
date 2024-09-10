@@ -18,7 +18,7 @@ public class Debug {
         int num1 = 10;
         int num2 = 37;
         //?
-        System.out.print("The sum of these numbers are ");
+        System.out.print("The sum of these numbers is ");
         System.out.println( num1 + num2);
         
 
