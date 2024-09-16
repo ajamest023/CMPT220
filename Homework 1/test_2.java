@@ -9,19 +9,12 @@ public class test_2 {
         } else {
             System.out.print("They are in fact not equal");
         }
-        }
-
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
+       
+    
+    
+    
+    
+    
+    }
     }
 
