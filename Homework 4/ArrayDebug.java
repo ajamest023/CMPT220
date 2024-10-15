@@ -1,8 +1,8 @@
 import java.util.Arrays;
 //Our cheaty array helper file <3
-public class Main {
+public class ArrayDebug {
     public static void main(String[] args) {
-
+        
         //Create me an array named "nameArray" that is a string and has 4 values in it, give me 4 names of people or animals you care about
 
         //Create me an array without any values, but it's an integer array named "numArray"
@@ -16,9 +16,9 @@ public class Main {
         //Here's our first practice array!
         String[] sortMe = {"Apple","Kiwi","Orange","Banana","Watermelon","Strawberry"};
        //What method is missing here to actually sort our array?
-        Arrays.?(sortMe);
+        Arrays.(sortMe);
         //And what method is missing here to print out that array?
-        System.out.println(?);
+        System.out.println();
         //After this, you cannot use the array helper file, gotta go back to the old ways!!
 
         //another one!
@@ -26,7 +26,7 @@ public class Main {
         //How would we add every index together and print out the sum??
         //A small hint:
         int sum = 0;
-        for(?;?;?){
+        for(){
 
         }
         
