@@ -19,7 +19,7 @@ Scanner sc = new Scanner(System.in);
 // asking for first case
 System.out.println("Welcome to Deal or No Deal");
 
-System.out.println("Please choose a starting case 1-26 typed as a word; One, Two, Twenty-two, Twenty-three etc");
+System.out.println("Please choose a starting case 1-26 typed as a word; One, Two, Twenty-two, Twenty-three etc.");
 String firstCase = sc.nextLine();
 
 if(firstCase.equals("One")){ 
