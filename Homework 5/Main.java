@@ -13,6 +13,7 @@ I give you two fully working method examples with and without parameters and cal
 
 import java.util.Scanner;
 public class Main {
+    partOne();
     public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
 
@@ -44,4 +45,17 @@ public class Main {
     }
 
   
+    public static void partOne(){
+        System.out.println("Problem 2");
+        System.out.println("Enter a number and I will tell you the fatorial: ");
+        int num = sc.nextInt();
+        int fact = 1; 
+    for (int i = 0; i <= num ; i++){
+        fact *= i;
+    }
+    System.out.println(fact);
+    return fact();
 }
+
+
+    }
