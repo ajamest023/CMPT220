@@ -25,5 +25,6 @@ public class Main {
         }
       //optional if you want to keep this, just to show what the indices are of the list you created
         System.out.println(list);
+        System.out.println("test");
     }
 }
